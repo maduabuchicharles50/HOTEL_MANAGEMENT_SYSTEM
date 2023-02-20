@@ -1,9 +1,9 @@
-const userprofile = require("../models/userProfile")
+const userprofile = require("../models/user")
 
 
 const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
-const userProfile = require("../models/userProfile");
+const userProfile = require("../models/user");
 
 const { SECRET = "secret" } = process.env;
 

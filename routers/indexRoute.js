@@ -4,7 +4,7 @@ const router = express.Router()
 
 const roomRoute = require('./roomRoute')
 const roomTypeRoute = require('./roomTypeRoute')
-const userProfileRouter = require('./userProfileRouter')
+const userProfileRouter = require('./userRouter')
 
 router.use('/user', userProfileRouter)
 router.use('/roomType', roomTypeRoute)
